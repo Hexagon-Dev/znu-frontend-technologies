@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-800	text-white">
+<header class="p-8 bg-slate-700">
+  <nav class="space-x-2 flex justify-center">
+    <a class="block px-4 py-2 bg-slate-600 hover:bg-slate-500 duration-300 rounded" href="index.html">Головна</a>
+    <a class="block px-4 py-2 bg-slate-600 hover:bg-slate-500 duration-300 rounded" href="about.html">Інфо</a>
+  </nav>
+</header>
+
+<main class="p-4">
+  <%= content %>
+</main>
+</body>
+</html>
