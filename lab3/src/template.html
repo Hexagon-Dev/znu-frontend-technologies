@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-800	text-white flex flex-col min-h-screen">
+<header class="p-8 bg-slate-700">
+  <nav class="space-x-2 flex justify-center">
+    <a class="block px-4 py-2 bg-slate-600 hover:bg-slate-500 duration-300 rounded" href="index.html">Головна</a>
+    <a class="block px-4 py-2 bg-slate-600 hover:bg-slate-500 duration-300 rounded" href="rozklad.html">Розклад</a>
+    <a class="block px-4 py-2 bg-slate-600 hover:bg-slate-500 duration-300 rounded" href="news.html">Новини</a>
+    <a class="block px-4 py-2 bg-slate-600 hover:bg-slate-500 duration-300 rounded" href="photo.html">Фото</a>
+  </nav>
+</header>
+
+<main class="p-4">
+  <%= content %>
+</main>
+
+<footer class="mt-auto p-4 bg-slate-900">
+  <p>Copyright 2023 © Hexagon-Dev</p>
+</footer>
+</body>
+</html>

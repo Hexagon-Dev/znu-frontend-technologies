@@ -1,0 +1,62 @@
+<article>
+  <h1 class="font-bold text-3xl text-center mb-10">Gallery (Stack)</h1>
+  <div class="grid grid-cols-3 gap-6 mx-auto w-fit">
+    <figure onclick="window.open('/icons/aws.svg', '_blank');">
+      <img src="/icons/aws.svg" alt="AWS">
+      <figcaption>AWS</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/database.svg', '_blank');">
+      <img src="/icons/database.svg" alt="MySQL">
+      <figcaption>MySQL</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/docker.svg', '_blank');">
+      <img src="/icons/docker.svg" alt="Docker">
+      <figcaption>Docker</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/github.svg', '_blank');">
+      <img src="/icons/github.svg" alt="GitHub">
+      <figcaption>GitHub</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/js.svg', '_blank');">
+      <img src="/icons/js.svg" alt="JS">
+      <figcaption>JS</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/laravel.svg', '_blank');">
+      <img src="/icons/laravel.svg" alt="Laravel">
+      <figcaption>Laravel</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/php.svg', '_blank');">
+      <img src="/icons/php.svg" alt="PHP">
+      <figcaption>PHP</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/sass.svg', '_blank');">
+      <img src="/icons/sass.svg" alt="SASS">
+      <figcaption>SASS</figcaption>
+    </figure>
+    <figure onclick="window.open('/icons/vue.svg', '_blank');">
+      <img src="/icons/vue.svg" alt="Vue">
+      <figcaption>Vue</figcaption>
+    </figure>
+  </div>
+</article>
+
+<style>
+  .grid figure {
+      background-color: #0F172A;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      transition: .2s;
+  }
+  .grid figure:hover {
+      background-color: rgb(71 85 105);
+  }
+  figure img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 8px;
+  }
+</style>
