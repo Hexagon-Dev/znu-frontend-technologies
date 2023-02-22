@@ -1,4 +1,8 @@
-current_dir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+ifeq ($(OS), Windows_NT)
+	current_dir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+else # Linux
+	current_dir := ./
+endif
 
 start:
 	docker build -t lab1 .
